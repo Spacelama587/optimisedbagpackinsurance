@@ -175,6 +175,7 @@ html {
   padding-bottom: 40px;
   align-items: center;
   background: url("./images/hero-bg.min.webp") center right -200px / auto 100% no-repeat;
+  contain: content; 
 }
 .bg-overlay {
   width: 100%;
