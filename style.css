@@ -1,4 +1,8 @@
-
+    .container {
+  width: 100%;
+  max-width: 90%;
+  margin: auto;
+}
 .navbar,
 .navopen {
   overflow: hidden;
@@ -25,7 +29,11 @@ html {
   font-family: Lato, sans-serif;
 }
 
-
+    .container {
+  width: 100%;
+  max-width: 90%;
+  margin: auto;
+}
 .navbar {
   width: 100%;
   height: 90px;
@@ -160,7 +168,18 @@ html {
   background-color: rgba(0, 0, 0, 0.7);
   display: none;
 }
-
+    .hero-area {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  align-items: center;
+  background: url("./images/hero-bg.min.webp") center right -200px / auto 100% no-repeat;
+  contain: content; 
+}
 
 .bg-overlay {
   width: 100%;
