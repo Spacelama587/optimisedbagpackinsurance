@@ -24,11 +24,7 @@ html {
   height: 100%;
   font-family: Lato, sans-serif;
 }
-.container {
-  width: 100%;
-  max-width: 90%;
-  margin: auto;
-}
+
 
 .navbar {
   width: 100%;
@@ -165,18 +161,7 @@ html {
   display: none;
 }
 
-.hero-area {
-  display: flex;
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 400px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  align-items: center;
-  background: url("./images/hero-bg.min.webp") center right -200px / auto 100% no-repeat;
-  contain: content; 
-}
+
 .bg-overlay {
   width: 100%;
   height: 100%;
